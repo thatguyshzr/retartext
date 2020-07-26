@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+
+  <!-- copy to clipboard
+  ------------------------------------------------- -->
+  <script>
+    function copy() {
+      var copied_text = document.getElementById('out');
+      copied_text.select();
+      document.execCommand('copy')
+    }
+  </script>
+
+  <title>Type like a retard</title>
+</head>
+<body>
+  <div class = 'container'>
+
+    <form action = '/' method="post">
+      <div class= 'row' style="margin-top: 5%">
+        <h4>Retartext</h4>
+        <p>Have you ever felt like your text aren't retarded enough?<br>Well, here's your solution.</p>
+        <textarea class="u-full-width" type="text" name="msg", placeholder="Type what you like."></textarea>
+        <button class="button-primary">Eliminate Intelligence</button>
+      </div>
+    </form>
+
+    <div class= 'row' style="margin-top: 5%">
+      <textarea class="u-full-width" type= 'text' name="output" id="out" placeholder="typ whT U lk😃" readonly>{{ retard_text}}</textarea>
+      <button class="button-primary" onclick="copy()">Copy to clipboard</button>
+    </div>
+
+  </div>
+</body>
+</html>
