@@ -1,12 +1,6 @@
 import re
 from random import randint
 
-# text= '''In this grave hour, perhaps the most fateful in our history,
-# I send to every household of my peoples, 
-# both at home and overseas, this message, 
-# spoken with the same depth of feeling for each one of you, 
-# as if I were able to cross your threshold and speak to you myself.'''
-
 def lower_punc(text):
 	text= text.lower()
 	text= re.sub(r'[^\w\s]', '', text)
@@ -63,5 +57,3 @@ def add_emoji(text):
 			temp_text+= i
 
 	return temp_text
-
-# print(add_emoji(text))
