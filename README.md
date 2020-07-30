@@ -4,7 +4,7 @@ A tool to help you write in a very annoying manner.
 
 https://retartext.herokuapp.com/
 
-![alt text]('screenshot.PNG')
+![alt text](screenshot.PNG)
 
 
 
